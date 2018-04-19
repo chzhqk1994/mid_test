@@ -33,13 +33,43 @@ public class ProductDaoTest {
     @Test
     public void add() throws SQLException {
         Product product = new Product();
-        product.setTitle("쌔삥");
-        product.setPrice(100);
-        Long id = productDao.insert(product);
+        Long id = addProduct(product);
 
         Product insertedProducted = productDao.get(id);
         assertEquals(insertedProducted.getId(), id);
         assertEquals(insertedProducted.getTitle(), product.getTitle());
         assertEquals(insertedProducted.getPrice(), product.getPrice());
+    }
+
+    @Test
+    public void update() throws SQLException {
+        Product product = new Product();
+        Long id = addProduct(product);
+
+        product.setId(id);
+        product.setTitle("updated_쌔삥");
+        product.setPrice(200);
+        productDao.update(product);
+
+        Product updatedProduct = productDao.get(id);
+        assertEquals(updatedProduct.getId(), product.getId());
+        assertEquals(updatedProduct.getTitle(), product.getTitle());
+        assertEquals(updatedProduct.getPrice(), product.getPrice());
+    }
+
+    @Test
+    public void delete() throws SQLException {
+        Product product = new Product();
+        Long id = addProduct(product);
+
+        productDao.delete(id);
+        Product deletedProduct = productDao.get(id);
+        assertEquals(deletedProduct, null);
+    }
+
+    private Long addProduct(Product product) throws SQLException {
+        product.setTitle("쌔삥");
+        product.setPrice(100);
+        return productDao.insert(product);
     }
 }
