@@ -39,7 +39,7 @@
       <file leaf-file-name="ProductDaoTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="593">
               <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
               <folding />
             </state>
@@ -63,15 +63,84 @@
       <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
                 <element signature="e#229#230#0" expanded="true" />
-                <marker date="1524157089355" expanded="true" signature="573:607" ph="select * fro... product" />
-                <marker date="1524157089355" expanded="true" signature="2029:2077" ph="INSERT INTO product... " />
-                <marker date="1524157089355" expanded="true" signature="3393:3439" ph="UPDATE product... " />
-                <marker date="1524157089355" expanded="true" signature="4422:4452" ph="DELETE FROM product... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetUserStatementStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/GetUserStatementStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <marker date="1524157696642" expanded="true" signature="468:502" ph="select * fro... product" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertUserStatementStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/InsertUserStatementStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <marker date="1524157696632" expanded="true" signature="527:575" ph="INSERT INTO product... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteUserStatementStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/DeleteUserStatementStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <marker date="1524157696637" expanded="true" signature="474:504" ph="DELETE FROM product... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateUserStatementStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/UpdateUserStatementStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <marker date="1524157696654" expanded="true" signature="500:546" ph="UPDATE product... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatementStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/StatementStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,6 +173,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -454,6 +524,11 @@
         <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/JejuConnectionMaker.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/StatementStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/UpdateUserStatementStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/DeleteUserStatementStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/InsertUserStatementStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/GetUserStatementStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ProductDao.java" />
       </list>
     </option>
@@ -704,14 +779,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524154367672</updated>
-      <workItem from="1524154369480" duration="2670000" />
+      <workItem from="1524154369480" duration="3274000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductDaoTest - 2018.04.20 at 01h 36m 24s.xml">
-      <configuration name="ProductDaoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProductDaoTest - 2018.04.20 at 01h 42m 29s.xml">
       <configuration name="ProductDaoTest" configurationId="JUnit" />
     </history-entry>
@@ -739,9 +811,12 @@
     <history-entry file="ProductDaoTest - 2018.04.20 at 01h 58m 14s.xml">
       <configuration name="ProductDaoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProductDaoTest - 2018.04.20 at 02h 08m 21s.xml">
+      <configuration name="ProductDaoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2670000" />
+    <option name="totallyTimeSpent" value="3274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -840,6 +915,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/StatementStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/UpdateUserStatementStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <marker date="1524157696654" expanded="true" signature="500:546" ph="UPDATE product... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/DaoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -852,25 +958,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/kr/ac/jejunu/ProductDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/DeleteUserStatementStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <marker date="1524157696637" expanded="true" signature="474:504" ph="DELETE FROM product... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/InsertUserStatementStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <marker date="1524157696632" expanded="true" signature="527:575" ph="INSERT INTO product... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/GetUserStatementStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <marker date="1524157696642" expanded="true" signature="468:502" ph="select * fro... product" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/ac/jejunu/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
-            <marker date="1524157089355" expanded="true" signature="573:607" ph="select * fro... product" />
-            <marker date="1524157089355" expanded="true" signature="2029:2077" ph="INSERT INTO product... " />
-            <marker date="1524157089355" expanded="true" signature="3393:3439" ph="UPDATE product... " />
-            <marker date="1524157089355" expanded="true" signature="4422:4452" ph="DELETE FROM product... " />
           </folding>
         </state>
       </provider>
